@@ -2,9 +2,10 @@
   "name": "backend-youtube",
   "version": "1.0.0",
   "description": "A project to build the backend of a web app similar to youtube.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "youtube",
@@ -14,5 +15,8 @@
     "videotube"
   ],
   "author": "Shouvik",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
